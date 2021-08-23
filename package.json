@@ -4,7 +4,7 @@
   "description": "web-components tab menu element",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "wds --node-resolve --app-index demo/index.html --open"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/umekobutea/tab-menu#readme",
   "volta": {
     "node": "16.7.0"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.1.21"
   }
 }
