@@ -1,0 +1,22 @@
+{
+  "name": "tab-menu",
+  "version": "0.1.0",
+  "description": "web-components tab menu element",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umekobutea/tab-menu.git"
+  },
+  "author": "umekobutea",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/umekobutea/tab-menu/issues"
+  },
+  "homepage": "https://github.com/umekobutea/tab-menu#readme",
+  "volta": {
+    "node": "16.7.0"
+  }
+}
