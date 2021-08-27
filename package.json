@@ -4,7 +4,7 @@
   "description": "web-components tab menu element",
   "main": "index.html",
   "scripts": {
-    "start": "wds --node-resolve --app-index demo/index.html --open"
+    "start": "wds --node-resolve --app-index demo/index.html --open --watch"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
   },
   "devDependencies": {
     "@web/dev-server": "^0.1.21"
+  },
+  "dependencies": {
+    "lit-html": "^1.4.1"
   }
 }
